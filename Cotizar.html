@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Erick Rivera">
+    <meta name="description" content="Portafolio de desarrollo web de Erick Rivera">
+    <meta name="keywords" content="HTML, CSS, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Titulo-->
+    <title>Mudanzas_Inicio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="Imgenes/">
+</head>
+<body>
+    <!---------------------Encabezado--------------------->
+    <!--Parte1-->
+    <div class="Encabezado">
+        <div class="container mt-3 Encabezado">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="ima">
+                        <img class="LogoEmpresa" src="Imgenes/Icono.png" alt="Logo_empresa">
+                    </div>
+                </div>
+                <div class="col-md-7 ColorHeader">
+                    <div>
+                        <div class="TituloEmpresa">
+                            <p>CompanyTrans <br> Mudanzas Torres</p>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row IconosMover">
+                        <div class="col-md-3">
+                            <div class="IconosContenedor">
+                                <a class="IconosContenedor" href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook iconosContenedor"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="IconosContenedor">
+                                <a class="IconosContenedor" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="IconosContenedor">
+                                <a class="IconosContenedor" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Parte2-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Cotizar.html" tabindex="-1" aria-disabled="true">COTIZAR</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!--Cotizar-->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center text-center">
+                <div class="desarrollador">
+                    <img src="Imgenes/cotizar.jpg" class="container" alt="Imagen de un desarrollador" style="max-height: 1000px;">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center p-4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="text-center">
+                            <h2>COTIZA TU SERVICIO!!</h2>
+                        </div>
+                        <form id="formulario">
+                            <div class="mb-3" id="GrupoUsuario">
+                                <label for="Usuario" class="form-label">Apellidos y Nombres</label>
+                                <input type="text" class="form-control" id="Usuario" name="Usuario" aria-describedby="usuarioHelp" placeholder="Ejm→ Rivera Molina Erick">
+                                <div id="usuarioHelp" class="form-text input-error"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Mail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="Mail" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text input-error"></div>
+                            </div>
+                            <div class="mb-3" id="GrupoCelular">
+                                <label for="Celular" class="form-label">Celular</label>
+                                <input type="number" class="form-control" id="Celular" name="Celular" aria-describedby="celularHelp" placeholder="Ejm→ 3396696 / 0959731512">
+                                <div id="celularHelp" class="form-text input-error"></div>
+                            </div>
+                            <div class="mb-3" id="GrupoDireccionPartida">
+                                <label for="DireccionPartida" class="form-label">Dirección de partida</label>
+                                <input type="text" class="form-control" id="DireccionPartida" name="DireccionPartida" >
+                                <div id="direccionPartidaHelp" class="form-text input-error"></div>
+                            </div>
+                            <div class="mb-3" id="GrupoDireccionLlegada">
+                                <label for="DireccionLlegada" class="form-label">Dirección de llegada</label>
+                                <input type="text" class="form-control" id="DireccionLlegada" name="DireccionLlegada">
+                                <div id="direccionLlegadaHelp" class="form-text input-error"></div>
+                            </div>
+                            <div class="mb-3" id="GrupoFecha">
+                                <label for="FechaMudanza" class="form-label">Fecha de mudanza</label>
+                                <input type="date" class="form-control" id="FechaMudanza" name="FechaMudanza">
+                                <div id="fechaMudanzaHelp" class="form-text input-error"></div>
+                            </div>
+                            <div class="mb-3" id="GrupoTipo">
+                                <label for="TipoMudanza" class="form-label">Tipo de mudanza</label>
+                                <select class="form-control" id="TipoMudanza" name="TipoMudanza">
+                                    <option value="opcion1">Basica</option>
+                                    <option value="opcion2">Media</option>
+                                    <option value="opcion3">Completa</option>
+                                    <option value="opcion4">Especial</option>
+                                    <option value="opcion5">Corporativo</option>
+                                </select>
+                                <div id="tipoMudanzaHelp" class="form-text input-error">Mensaje de ayuda o error aquí</div>
+                            </div>
+                            <div id="alertGeneral" class="alert alert-danger" role="alert">
+                                <strong>¡Error!</strong> Todos los campos deben estar llenos
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <!---------------------Footer------------------------->
+    <!--Parte1-->
+    <section class="mt-5">
+        <div class="container d-flex justify-content-center colorFooter">
+            <div class="row ">
+                <div class="col-md-3 A">
+                    <button type="button" class="btn btn_tamano d-flex justify-content-center">
+                        <div class="d-flex flex-warp">
+                            <i class="bi bi-whatsapp"></i>
+                            <p>→</p>
+                            <p>WhattsApp</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-3 A">
+                    <button type="button" class="btn btn_tamano d-flex justify-content-center">
+                        <div class="d-flex flex-warp">
+                            <i class="bi bi-compass"></i>
+                            <p class="">→</p>
+                            <p>Direccion</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-3 A">
+                    <button type="button" class="btn btn_tamano d-flex justify-content-center">
+                        <div class="d-flex flex-warp">
+                            <i class="bi bi-calendar-date"></i>
+                            <p>→</p>
+                            <p>Atencion</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-md-3 A">
+                    <a href="mailto:ejemplo@gmail.com">
+                        <button type="button" class="btn btn_tamano d-flex justify-content-center">
+                            <div class="d-flex flex-warp">
+                                <i class="bi bi-envelope-at"></i>
+                                <p>→</p>
+                                <p>Correo</p>
+                            </div>
+                        </button>
+                    </a>  
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Parte2-->
+    <div class="container final">
+        <div class="imagen_final">
+            <img class="LogoEmpresa" src="Imgenes/Icono.png" alt="Logo_empresa">
+        </div>
+        <div class="texto_final">
+            <p>CONTACTANOS!!</p>
+            <p>3396696/0959731512</p>
+            <p>Calle S2I y Alfonso Mora Bowen (3.52 km) EC170121 Quito.</p>
+        </div>
+    </div>
+    
+
+    <!--JS-->
+    <script src="JS/funcionalidad.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+/*------------------------Diseño Header------------------------*/
+/*Parte1*/
+.LogoEmpresa {
+    width: 100%;
+    height: auto; 
+}
+
+.IconosContenedor {
+    display: flex;
+    justify-content: end;
+    font-size: 165%;
+    color: green;
+    background-color: white(255, 255, 255);
+}
+
+.TituloEmpresa { 
+    display: flex;
+    justify-content: center;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/*Parte2*/
+
+.navbar-brand, .navbar-nav .nav-link {
+    border: 2px solid #8080804d;
+    width: 324px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand, .navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: #1b1b32;
+}
+
+.navbar-brand{
+    display: none;
+}
+    
+
+/*------------------------ Diseño Footer------------------------*/
+/*Parte1*/
+.btn_tamano{
+    width: 160px;
+    margin-top: 2px;
+    align-content: center;
+    background-color: #4180ab !important;
+    color: white !important;
+}
+
+.colorFooter {
+    background-color: #d6dd90;
+    padding: 7px;
+}
+
+/*Parte2*/
+.imagen_final {
+    width: 20%;
+    display: flex;
+    margin-left: 20%;;
+}
+
+.texto_final{
+    width: 20%;
+    position: relative;
+    margin-top: -12%;
+    margin-left: 47%;
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+}
+
+.final{
+    background-color: #9e9e9e;
+    padding: 1%;
+}
+
+/*------------------------MEDIA QWERIS------------------------*/
+@media screen and (max-width: 1024px){
+    .navbar-brand, .navbar-nav .nav-link {
+        color: white;
+        width: 233px;
+    }
+    .imagen_final {
+        width: 25%;
+
+    }
+    .texto_final{
+        width: 17%;  
+        margin-top: -15%; 
+        margin-left: 50%; 
+    }
+    .numero_presentacion {
+        margin-top: 38%;
+        margin-left: 68%;
+        max-width: 400px;
+        font-size: 1.2rem !important;
+    }
+    .texto_proyecto{
+        display: flex;
+        margin-left: 10px !important;
+    }
+
+}
+
+
+@media screen and (width: 768px){
+    .LogoEmpresa {
+        width: 175%;
+        height: auto; 
+    }
+    .TituloEmpresa { 
+        padding-left: 17%;
+        font-size: 1.9rem;
+    }
+    .IconosContenedor {
+        font-size: 150%;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+        max-width: 174px;
+
+    }
+    .imagen_final {
+        width: 17%;
+
+    }
+    .texto_final{  
+        font-size: 0.8rem;
+        margin-top: -18%;
+        margin-left: 60%; 
+    } 
+
+    .numero_presentacion {
+        top: -90%;
+        max-width: 200px !important;
+        font-size: 0.8rem !important;
+    }
+    .texto_presentacion{
+        font-size: 1rem !important;
+        top: -20%;
+    }
+    .texto_proyecto{
+        margin-left: 4% !important;
+   }
+   .texto_proyecto{
+    margin-left: 10% !important;
+    }
+    .proyectosContenedor2 {
+    margin-left: 0px !important;
+    }
+    .valores{
+        margin-left: 180px !important;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    .ima{
+        width: 40%;
+    }
+    .TituloEmpresa { 
+        padding-left: 35%;
+        margin-top: -21%;
+        font-size: 1.5rem;
+    }
+    .IconosContenedor {
+        display: none;
+    }  
+    .imagen_final {
+        width: 50%;
+        margin-left: 0%;
+    }
+    .texto_final{  
+        font-size: 0.6rem;
+        margin-top: -23%;
+        margin-left: 55%; 
+        width: 140px;
+    }
+    .numero_presentacion {
+        top: -92%;
+        right: 4%;
+        max-width: 200px !important;
+        font-size: 0.8rem !important;
+    }
+    .texto_presentacion{
+        width: 100% !important;
+        padding-left: 15%;
+        font-size: 1rem !important;
+        top: -20%;
+    }
+    .tamanoajustado {
+        width: 80% !important;
+        display: flex;
+        margin-left: 15% !important;
+    }
+
+    .proyectos{
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .texto_proyecto{
+        display: flex;
+        margin-left: 63px !important;
+    }
+    .proyectosContenedor2 {
+        margin-left: 0px !important;
+        }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .TituloEmpresa { 
+        padding-left: 35%;
+        margin-top: -21%;
+        font-size: 1.2rem;
+    }
+    .numero_presentacion {
+        top: -90%;
+        right: 19%;
+        max-width: 150x !important;
+        font-size: 0.8rem !important;
+    }
+    .texto_proyecto{
+         margin-left: 4% !important;
+    }
+    
+}
+
+
+/*------------------------Presentacion------------------------*/
+
+.tamanoajustado {
+    width: 100%;
+    display: flex;
+    margin-left: 21%;;
+}
+
+.Presentacion_empresa{
+    width: 100%;
+}
+
+.texto_presentacion{
+    width: 50%;
+    font-size: 1.4rem;
+    text-justify: center;
+    margin-top: 6%;
+}
+
+.numero_presentacion {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 51%;
+    width: 70%;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: rgb(151, 151, 151);
+    bottom: 520px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.presentacion{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.proyectos{
+    display: flex;
+    justify-content: center;
+}
+
+.texto_proyecto{
+    background-color:#d6dd90;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1b1b32;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 71px; 
+}
+
+.tamanoajustado:hover + .numero_presentacion {
+    opacity: 0; 
+    pointer-events: none;
+}
+
+.tamanoajustado:hover + .numero_presentacion + .invisible-placeholder {
+    height: 20px;
+}
+
+.invisible-placeholder {
+    height: 0;
+    transition: height 0.3s; 
+}
+
+
+/*Servicios*/
+
+.fa-solid {
+    font-size: 8rem;
+}
+
+.proyectosContenedor {
+    border: 2px solid #8080804d;
+    padding: 15px 5px 0px 0px;
+}
+
+.proyectosContenedor:hover {
+    color: black;
+    background-color: #8080804d;
+}
+
+.serviciosmover {
+    padding: 50px;
+}
+
+.proyectosContenedor2{
+    margin-left: 200px;
+}
+
+.publiImagen {
+    width: 100px;
+}
+
+/*Nosotros*/
+.texto_nosotros{
+    border: 2px solid #8080804d;
+    padding-inline: 2%; 
+}
+
+.texto_nosotros:hover {
+    color: black;
+    background-color: #8080804d;
+}
+
+.texto_titulo_nosotros {
+    background-color:#d6dd90;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1b1b32;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
